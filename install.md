@@ -116,7 +116,7 @@ rm sispopnet.ini
 nano sispopnet.ini
 ```
 
-** Then paste in below info changing username to your user
+* Then paste in below info changing username to your user
 ```java
 [router]
 threads=4
@@ -199,5 +199,4 @@ cd storage
 ./sispop-storage 0.0.0.0 11011 --sispopd-rpc-port=30000
 ```
 * Exit the screen
-  
-exit screen (detatch)
+
