@@ -58,3 +58,14 @@ nav a {
 #markdown-content li {
     margin-bottom: 5px;
 }
+
+#markdown-content pre {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    margin-bottom: 15px;
+}
