@@ -64,6 +64,7 @@ prepare_registration
 * Then follow commands to set up node get registration code and input into registration part of your wallet.
 
 
+# Register The Sispopnet
 * Open a screen for sispopnet
 
 ```java
