@@ -30,7 +30,8 @@ nav a {
 
 #markdown-content h2 {
     font-size: 20px;
-    color: #555;
+    color: #243fa5;
+    text-align: center;
 }
 
 #markdown-content h3 {
@@ -55,7 +56,7 @@ nav a {
     color: #007BFF;
     margin-bottom: 10px;
     margin-right: 10px;
-
+    text-align: center;
 }
 
 /* Style the code blocks */
