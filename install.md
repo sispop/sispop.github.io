@@ -34,7 +34,7 @@ screen -r sispop
 * Download the sispopd wallet
 
 ```
-wget https://github.com/sispop-dev/sispop/releases/download/v10.0.0/sispop-wallet-ubuntu-18.tar.gz
+wget https://github.com/sispop-dev/sispop/releases/download/v10.0.0/sispop-ubuntu-wallet.tar.gz
 ```
 
 * Tar the file
@@ -150,9 +150,14 @@ ifname=sispop
 # ROUTERS ONLY: publish network interfaces for handling inbound traffic.
 # change to eth0 if your cpu support that
 [bind]
-lo=1090
+eth0=1090
 [netdb]
 dir=/home/<USERNAME>/.sispopnet/netdb
+
+[bootstrap]
+# add a bootstrap node's signed identity to the list of nodes we want to bootstrap from
+# if we don't have any peers we connect to this router
+add-node=/home/ubuntu/.sispopnet/bootstrap.signed
 ```
 * Save the sispopnet.ini file with control X and press y for yes and click on `enter`
 
