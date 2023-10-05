@@ -34,19 +34,19 @@ screen -r sispop
 * Download the sispopd wallet
 
 ```
-wget https://github.com/sispop-dev/sispop/releases/download/v10.0.0/sispop-ubuntu-wallet.tar.gz
+wget https://github.com/sispop-dev/sispop/releases/download/v10.0.2/sispop-ubuntu.tar.gz
 ```
 
 * Tar the file
 
 ```java
-tar -xzf sispop-wallet-ubuntu.tar.gz
+tar -xzf sispop-ubuntu.tar.gz
 ```
 
 * Go into the wallet folder
 
 ```java
-cd sispop-wallet-ubuntu
+cd sispop-ubuntu
 ```
 
 * Run the sispopd daemon as below
@@ -188,21 +188,21 @@ screen -r storage
 * Download the storage application
 
 ```java
-wget https://github.com/sispop-dev/storage/releases/download/v2.0.9/storage.tar.gz
+wget https://github.com/sispop-dev/sispop/releases/download/v10.0.2/storage-ubuntu-20.tar.gz
 ```
 * Tar the file with
 
 ```java
 
-tar -xzf storage.tar.gz &&
+tar -xzf storage-ubuntu-20.tar.gz &&
 
-cd storage
+cd storage-ubuntu-20
 ```
 
 * Run the storage application as below
 
 ```java
-./sispop-storage 0.0.0.0 11011 --sispopd-rpc-port=30000
+./sispop-storage 0.0.0.0 22020 --sispopd-rpc-port=30000
 ```
 * Exit the screen
 
