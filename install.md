@@ -34,7 +34,7 @@ screen -r sispop
 * Download the sispopd wallet
 
 ```
-wget https://github.com/sispop-dev/sispop/releases/download/v10.0.2/sispop-ubuntu.tar.gz
+wget https://github.com/sispop-dev/sispop/releases/download/v10.0.1/sispop-ubuntu.tar.gz
 ```
 
 * Tar the file
@@ -188,7 +188,7 @@ screen -r storage
 * Download the storage application
 
 ```java
-wget https://github.com/sispop-dev/sispop/releases/download/v10.0.2/storage-ubuntu-20.tar.gz
+wget https://github.com/sispop-dev/sispop/releases/download/v10.0.1/storage-ubuntu-20.tar.gz
 ```
 * Tar the file with
 
